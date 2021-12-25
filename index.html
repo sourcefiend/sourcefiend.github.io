@@ -1,56 +1,37 @@
-
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Grid · Bootstrap</title>
 
-    <!-- Bootstrap reboot CSS -->
-    <link href="css/bootstrap-reboot.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Grid · Bootstrap</title>
 
-    <!-- Bootstrap grid CSS -->
-    <link href="css/bootstrap-grid.css" rel="stylesheet">
+  <!-- Bootstrap reboot CSS -->
+  <link href="css/bootstrap-reboot.css" rel="stylesheet">
 
-    <!-- Naš stil -->
-    <link href="css/style.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/85cf2838e2.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap grid CSS -->
+  <link href="css/bootstrap-grid.css" rel="stylesheet">
+
+  <!-- Naš stil -->
+  <link href="css/style.css" rel="stylesheet">
 
 <body>
   <main role="main" class="container">
-    <div class="row align-items-center">
-      <div class="offset-md-1 col-md-2">
-        <img src="img/image.jpg" alt="Slika" class="fit-image">
-      </div>
-      <div class="col-md-9 top-nav">
-        <div class="row d-flex justify-content-center">
-          <div class="offset-md-1 col-md-2">
-              <a href="#home" class="active">Naslovnica</a>
-          </div>
-          <div class="col-md-2">
-            <a href="#products">Ponuda</a>
-          </div>
-          <div class="col-md-2">
-            <a href="#about">O nama</a>
-          </div>
-          <div class="col-md-2">
-            <a href="#contact">Kontakt</a>
-          </div>
-        </div>
-        <div class="row d-flex justify-content-center">
-          <div class="offset-md-5 col-md-2 icon-wrapper">
-            <a href="#cart"><i class="fas fa-shopping-cart"></i></a>
-          </div>
-          <div class="col-md-2 icon-wrapper">
-            <a href="#search"><i class="fas fa-search"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- Prvi zadatak -->
+    <picture>
+      <source media="(max-width: 799px)" srcset="./img/panorama-mobile.jpg">
+      <source media="(max-width: 1199px)" srcset="./img/panorama-tablet.jpg">
+      <source media="(min-width: 1200px)" srcset="./img/panorama.jpg">
+      <img class="prvi" src="./img/panorama.jpg" alt="A panorama picture of an island.">
+    </picture>
+
+    <!-- Drugi zadatak -->
+    <img class="drugi" src="./img/american-akita-500.jpg" alt="A picture of an American Akita."
+      srcset="/img/american-akita-500.jpg 500w, /img/american-akita-1000.jpg 1000w, /img/american-akita-1500.jpg 1500w"
+      sizes="(min-width: 576px) 500w, (min-width: 992px) 1000w, (min-width: 1400px) 1500w">
   </main><!-- /.container -->
-  
 </body>
 
 

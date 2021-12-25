@@ -329,42 +329,10 @@ template {
 
 /* Moje klase */
 
-.fit-image {
-  max-width: 100%;
-  height: auto;
+.prvi {
+  width: 100%;
 }
 
-body {
-  padding-bottom: 10em;
-  padding-top: 2em;
-  background-color: rgba(0, 123, 160, 0.89)
-}
-
-.container {
-  background-color:rgba(22, 180, 219, 0.288);
-}
-
-.top-nav {
-  text-align: center;
-  white-space: nowrap;
-}
-
-.top-nav a{
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-.top-nav a:hover {
-  background-color: rgba(22, 180, 219, 0.288);
-}
-
-.icon-wrapper {
-  font-size: 2rem;
-}
-
-i {
-  color: white;
+.drugi {
+  width: 50%;
 }
